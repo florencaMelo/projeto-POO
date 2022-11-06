@@ -13,7 +13,6 @@ class Tarefa:
         return self.descricao + (' : concluido' if self.feito else '' ) 
         
 
-
 casa = []
 casa.append(Tarefa('passar roupa'))
 casa.append(Tarefa('limpar xixi do bud'))
